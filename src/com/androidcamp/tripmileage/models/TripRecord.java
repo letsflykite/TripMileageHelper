@@ -3,8 +3,8 @@ package com.androidcamp.tripmileage.models;
 import java.util.Date;
 
 public class TripRecord {
-   Location start;
-   Location end;
+   TripLocation start;
+   TripLocation end;
    Date startTime;
    Date endTime;
    String imgUrl_start;
